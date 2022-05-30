@@ -10,7 +10,7 @@ TECNOLOGIAS UTILIZADAS:
 - API JSon disnponibilizada pelo ViaCep
 
 APRENDIZADO:
-- Utilização de anotações SprrinBoot 
+- Utilização de anotações SpringBoot 
 - Manipulação de dependecias via "pom.xml"
 - Utilização de testes do sistema
 - Desenvolvimento de API REST com Parões de Projeto java SpringBoot (Singleton, Strategy, Facade)
