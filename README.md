@@ -14,4 +14,4 @@ APRENDIZADO:
 -manipulação de dependecias via "pom.xml"
 -utilização de testes do sistema
 -desenvolvimento de API REST com Parões de Projeto java SpringBoot
--- "Singleton, Strategy, Facade"
+(Singleton, Strategy, Facade)
