@@ -17,6 +17,12 @@ public class Endereco {
     private String ddd;
     private String siafi;
     
+    public String getCep() {
+		return cep;
+	}
+	public void setCep(String cep) {
+		this.cep = cep;
+	}
     public String getLogradouro() {
         return logradouro;
     }

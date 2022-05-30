@@ -14,6 +14,7 @@ public class Client {
     private String nome;
     @ManyToOne
     private Endereco endereco;
+    
     public String getNome() {
         return nome;
     }

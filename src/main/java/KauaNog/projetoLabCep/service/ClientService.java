@@ -6,11 +6,11 @@ public interface ClientService {
     
     Iterable<Client> buscarTodos();
 
-    Client buscarPorId(Long Id);
+    Client buscarPorId(Long id);
 
     void inserir(Client client);
 
-    void atualizar(Long Id, Client client);
+    void atualizar(Long id, Client client);
 
-    void deletar(Long Id);
+    void deletar(Long id);
 }
