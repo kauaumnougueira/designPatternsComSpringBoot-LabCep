@@ -13,7 +13,7 @@ import KauaNog.projetoLabCep.service.ClientService;
 import KauaNog.projetoLabCep.service.ViaCepService;
 
 @Service
-public class ClientServerImpl implements ClientService{
+public class ClientServerImpl implements ClientService {
 
     @Autowired
     private ClientRepository clientRepository;
@@ -72,6 +72,7 @@ public class ClientServerImpl implements ClientService{
         String cep = client.getEndereco().getCep();
         Endereco endereco = enderecoRepository.findById(cep).orElseGet(() -> {
             Endereco novoEndereco = viaCepService.consultarCep(cep);
+            enderecoRepository.save(novoEndereco);
             return novoEndereco;
         });
         client.setEndereco(endereco);
